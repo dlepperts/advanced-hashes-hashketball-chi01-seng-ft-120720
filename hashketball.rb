@@ -169,6 +169,7 @@ def team_names
 end
 
 def player_numbers(team)
+<<<<<<< HEAD
   player_nums = []
   game_hash.each do |key,value|
     if value[:team_name] == team
@@ -210,3 +211,10 @@ def big_shoe_rebounds
 end
 
 big_shoe_rebounds
+=======
+  game_hash.each do |key,value|
+  if value[:team_name] == team
+    p value[:colors]
+  end
+end
+>>>>>>> 7f7c2d504d0999c202d1aa18d7c33ac279c8dbc1
